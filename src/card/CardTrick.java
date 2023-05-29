@@ -43,6 +43,11 @@ public class CardTrick {
             chosenCard.setSuit(userCard);
             chosenCard.setValue(userNum);
       
+//adding hard-coded luckyCard object inside gitHub
+      Card luckyCard= new Card();
+      luckyCard.setSuit("Spades");
+      luckyCard.setValue(5);
+      
 // checking and matching user's card with randomly generated 7 cards      
             boolean match = false;
             for (int i=0;i<magicHand.length;i++){
